@@ -16,3 +16,21 @@
 		</a>
 	</div>
 </div>
+<div class="flex flex-col bg-[#F8F3E2]">
+	<div class="flex flex-row">
+		<div class="flex flex-col">
+			<h1
+				class="relative text-6xl text-[#532516]
+            text-left font-[merriweather] font-normal ml-50 mt-50"
+			>
+				Get ready for <br />the Largest Quiz <br />in India
+			</h1>
+			<h1 class="relative text-base ml-50 mt-7">
+				With over 2000+ participants, which also includes participants<br /> from elite colleges
+				like IIMs and IITs, here not just for our attractive <br />prize money but also for our
+				convivial quizzing experience.
+			</h1>
+		</div>
+		<img class="relative w-100 mx-auto mt-25" src="../src/media/Frame49.png" alt="Frame49" />
+	</div>
+</div>
