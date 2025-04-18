@@ -11,7 +11,7 @@
 			the experience and mettle of working professionals against the young blood of quizzing. The
 			new normal paved way for quizeers accross the country to be part of this prestigious event.
 		</h1>
-		<a href="#About" target="_blank">
+		<a href="#about">
 			<h1 class="mt-4 text-sm font-extrabold text-[#532516]">Learn More &rarr;</h1>
 		</a>
 	</div>
