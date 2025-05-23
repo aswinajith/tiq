@@ -2,7 +2,6 @@
 	import '../app.css';
 	import Main from '../components/Main.svelte';
 	import Landing from '../components/Landing.svelte';
-	import Footer from '../components/Footer.svelte';
 	let { children } = $props();
 </script>
 
@@ -12,6 +11,5 @@ sm: text-base min-h-screen"
 >
 	<Landing />
 	<Main />
-	<Footer />
 </div>
 {@render children()}
