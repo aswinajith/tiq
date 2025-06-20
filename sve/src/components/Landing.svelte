@@ -1,6 +1,6 @@
 <script>
 	let tabs = $state([
-		{ name: 'About Us', link: '#about' },
+		{ name: 'About Us', link: '/about' },
 		{ name: 'Contact', link: '#contact' }
 	]);
 </script>
