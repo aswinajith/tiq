@@ -1,4 +1,6 @@
 <script>
+	import { page } from '$app/stores';
+
 	function scrollToTop() {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
@@ -21,7 +23,12 @@ to-[#7B3C27] to-100%"
 				</a>
 				<div class="py-3.5 ml-auto text-xl">
 					{#each tabs as tab}
-						<a class="text-[#F8F3E2] px-7 font-light" href={tab.link}>{tab.name}</a>
+						<a
+							class="text-[#F8F3E2] px-7 font-light {$page.url.pathname === tab.link
+								? 'underline underline-offset-10 font-extrabold'
+								: ''}"
+							href={tab.link}>{tab.name}</a
+						>
 					{/each}
 
 					<a
