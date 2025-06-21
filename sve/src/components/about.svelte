@@ -106,7 +106,10 @@ to-[#7B3C27] to-100%"
 		</p>
 	</div>
 </div>
-<button on:click={scrollToTop} class="fixed bottom-10 right-10 bg-[#3B2F2F] rounded-full p-3">
+<button
+	on:click={scrollToTop}
+	class="cursor-pointer fixed bottom-10 right-10 bg-[#3B2F2F] rounded-full p-3"
+>
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		fill="none"
