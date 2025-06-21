@@ -35,7 +35,7 @@ to-[#7B3C27] to-100%"
 			</header>
 		</div>
 	</div>
-	<div class="flex flex-row mx-35 my-25 mb-45">
+	<div class="flex mx-35 my-25 mb-45 lg:flex-row">
 		<div class="flex flex-col">
 			<h1 class="text-6xl font-[merriweather] text-[#EDCA90] text-left">About Tiq</h1>
 			<p class="mt-10 text-base text-[#EDCA90] leading-loose font-light mr-10 pr-30">
