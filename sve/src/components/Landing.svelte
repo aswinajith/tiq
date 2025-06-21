@@ -4,7 +4,7 @@
 	}
 	let tabs = $state([
 		{ name: 'About Us', link: '/about' },
-		{ name: 'Contact', link: '#contact' }
+		{ name: 'Contact', link: '/contact' }
 	]);
 </script>
 
